@@ -1,0 +1,28 @@
+# Visual Studio cache directory
+.vs/
+.vscode/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj
+**.nsight-gfxproj
+**.DotSettings
+**.user
+
+# VS Codium cache directory
+.cache/
+
+# ignore cmake build folder
+**/build
+build/
+out/
+**/out
+
+# ignore vendor folders except for CmakeLists
+!3Sisters-Engine/vendor 
+3Sisters-Engine/vendor/*
+!3Sisters-Engine/vendor/CMakeLists.txt
+
+#ignore cmake json settings
+cmakeSettings.json

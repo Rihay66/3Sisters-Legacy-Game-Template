@@ -1,0 +1,3 @@
+[submodule "3Sisters-Engine"]
+	path = 3Sisters-Engine
+	url = https://github.com/Rihay66/3Sisters-Engine.git
